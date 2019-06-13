@@ -16,6 +16,10 @@ class Artist
     @@all << self
   end
   
+  def all
+    @@all
+  end
+  
   def find_or_create_by_name(name)
     match = false
     @@all.each do |artist|
