@@ -17,4 +17,6 @@ class Artist
       else
         self.new(name)
       end
+    end
+    match
 end
