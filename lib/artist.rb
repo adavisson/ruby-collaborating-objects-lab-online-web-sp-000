@@ -25,6 +25,7 @@ class Artist
     if @@all.length <= 0
       match = self.new(name)
     end
+    
     @@all.each do |artist|
       if artist.name == name
         match = artist
