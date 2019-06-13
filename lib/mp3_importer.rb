@@ -11,7 +11,7 @@ class MP3Importer
     song_array = []
     file_list.collect do |line|
       line.split("/")!
-      puts
+      puts line
     end
     
   end
