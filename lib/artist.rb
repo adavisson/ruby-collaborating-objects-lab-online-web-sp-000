@@ -26,7 +26,7 @@ class Artist
       if artist.name == name
         match = true
       else
-        artist_1 = self.new(name)
+        match = self.new(name)
       end
     end
     match
