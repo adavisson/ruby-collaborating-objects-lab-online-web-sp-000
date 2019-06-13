@@ -24,14 +24,14 @@ class Artist
     match = nil
     if @@all.length < 1
       match = self.new(name)
-      save
+      self.save
     else
       @@all.each do |artist|
         if artist.name == name
           match = artist
         else
           match = self.new(name)
-          save
+          self.save
         end
       end
     end
