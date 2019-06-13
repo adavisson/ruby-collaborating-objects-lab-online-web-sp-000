@@ -17,7 +17,10 @@ class MP3Importer
   end
   
   def import
-    
+    songs = self.files
+    songs.each do |song|
+      Song.new_by_filename(song)
+    end
   end
   
 end
