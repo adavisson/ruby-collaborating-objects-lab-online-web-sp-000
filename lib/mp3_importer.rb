@@ -7,5 +7,7 @@ class MP3Importer
   end
   
   def self.import
+    
+  end
   
 end
