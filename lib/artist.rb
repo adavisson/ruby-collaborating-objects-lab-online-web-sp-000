@@ -26,7 +26,7 @@ class Artist
     end
     
     if !match 
-      @all << self
+      @@all << self
     end
   end
   
