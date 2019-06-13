@@ -7,9 +7,4 @@ class Artist
     @songs = []
   end
   
-  def add_song(song)
-    @songs.push(song)
-  end
-    
-  
 end
