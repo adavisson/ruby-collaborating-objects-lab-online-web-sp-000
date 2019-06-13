@@ -23,7 +23,7 @@ class Artist
   
   def self.find_or_create_by_name(name)
     match = nil
-    if @@all.length <= 0
+    if @@all.length < 1
       match = self.new(name)
     else
       @@all.each do |artist|
