@@ -24,7 +24,7 @@ class Artist
     match = nil
     if @@all.length < 1
       match = self.new(name)
-      self.save
+      match.save
     else
       @@all.each do |artist|
         if artist.name == name
