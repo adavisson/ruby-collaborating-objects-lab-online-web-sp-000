@@ -10,6 +10,7 @@ class Artist
   end
   
   def find_or_create_by_name(name)
-    
-  
+    match = false
+    @@artists.each do |artist|
+      if artist.name == name
 end
