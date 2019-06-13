@@ -32,4 +32,8 @@ class Artist
     match
   end
   
+  def print_songs
+    
+  end
+  
 end
