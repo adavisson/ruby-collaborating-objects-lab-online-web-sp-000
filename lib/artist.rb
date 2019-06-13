@@ -31,7 +31,7 @@ class Artist
           match = artist
         else
           match = self.new(name)
-          self.save
+          match.save
         end
       end
     end
