@@ -24,7 +24,8 @@ class Artist
         end
       end
     end
-    
+    if !match 
+      @all << self
   end
   
   def self.all
