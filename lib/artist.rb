@@ -14,11 +14,7 @@ class Artist
   end
   
   def save
-    if @@all.length <= 0
-      @@all << self
-    elsif !@@all.include?(self)
-      @@all << self
-    end
+    @@all << self
   end
   
   def self.all
