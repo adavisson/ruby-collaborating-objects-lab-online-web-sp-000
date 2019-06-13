@@ -13,6 +13,7 @@ class Song
     song = self.new(info[1])
     @artist = Artist.find_or_create_by_name(info[0])
     song
+    binding.pry
   end
   
   def artist=(artist)
