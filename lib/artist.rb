@@ -13,4 +13,8 @@ class Artist
     match = false
     @@artists.each do |artist|
       if artist.name == name
+        match = true
+      else
+        self.new(name)
+      end
 end
