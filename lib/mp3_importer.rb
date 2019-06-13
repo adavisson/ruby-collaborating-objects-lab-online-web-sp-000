@@ -7,7 +7,7 @@ class MP3Importer
   end
   
   def self.files
-    
+    file_list = DIR["#{@path}/*.mp3"]
   end
   
   def self.import
