@@ -19,7 +19,7 @@ class Artist
       @@all << self
       match = true
     else
-      @all.each do |item|
+      @@all.each do |item|
         if item.name == self.name
           match = true
         end
