@@ -9,7 +9,10 @@ class MP3Importer
   def files
     file_list = Dir["#{@path}/*.mp3"]
     file_list.collect do |line|
-      line.split()
+      line.split("/")
+      puts line
+    end
+    
   end
   
   def import
