@@ -12,7 +12,7 @@ class Song
     info = filename.split(" - ")
     binding.pry
     song = self.new(info[1])
-    artist = Artist.find_or_create_by_name(info[0])
+    @artist = Artist.find_or_create_by_name(info[0])
   end
   
   def artist=(artist)
