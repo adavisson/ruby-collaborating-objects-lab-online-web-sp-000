@@ -10,7 +10,7 @@ class MP3Importer
     file_list = Dir["#{@path}/*.mp3"]
     file_list.collect do |line|
       line.split("/")
-      puts line
+      puts line.last
     end
     
   end
