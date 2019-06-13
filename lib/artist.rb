@@ -24,6 +24,7 @@ class Artist
         end
       end
     end
+    
     if !match 
       @all << self
     end
