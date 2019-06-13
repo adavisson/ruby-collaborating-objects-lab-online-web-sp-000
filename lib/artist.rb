@@ -14,6 +14,7 @@ class Artist
   end
   
   def save
+    match = false
     if @@all.length <= 0
       @@all << self
     else
@@ -21,6 +22,9 @@ class Artist
         if item.name == self.name
           match = true
         end
+      end
+    end
+    
   end
   
   def self.all
