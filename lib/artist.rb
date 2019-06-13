@@ -14,21 +14,7 @@ class Artist
   end
   
   def save
-    match = false
-    if @@all.length <= 0
-      @@all << self
-      match = true
-    else
-      @@all.each do |item|
-        if item.name == self.name
-          match = true
-        end
-      end
-    end
-    
-    if !match 
-      @@all << self
-    end
+    @@all << self
   end
   
   def self.all
