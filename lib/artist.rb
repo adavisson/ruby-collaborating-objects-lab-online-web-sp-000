@@ -19,4 +19,5 @@ class Artist
       end
     end
     match
+  end
 end
